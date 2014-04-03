@@ -6,7 +6,7 @@ Vous devez rédiger un texte présentant votre projet et les grandes étapes né
 Rédigez une fonction en python utile pour votre projet et déposez la sur git.
 
 4 avril
-
+ Fonction masse : fausse --> la corriger et faire un prg qui demande l'utilisateur d'entrer C, V, M et qui sort m à peser
 Faire tourner les programmes orientés objet du document : https://www.dropbox.com/s/5cha98exp1ltpst/PremierProgramme.pdf
 
 - Faire un programme qui crée un objet Eleve qui a pour attribut un nom, une classe et un état (present ou absent qui sera codé par un booléen)
