@@ -11,10 +11,10 @@ def hello():
 	return out
 
 @route("/", method="POST")
-	def reponse():
-		rep  = request.forms.get("case1")
-		return """
-	<h1>Votre choix : %s """ % (rep,)
+def reponse():
+	rep  = request.forms.get("case1")
+	return """
+<h1>Votre choix : %s """ % (rep,)
 
 
 
