@@ -2,7 +2,9 @@
 <html> 
 <head>
 <title>Petit Laboratoire num√©rique</title>
-<img src="http://www.clg-longchamp.ac-aix-marseille.fr/spip/IMG/rubon427.jpg">
+<img src="image.jpg">
+<link rel="stylesheet" type="text/css" href="style.css">  
+</head>
 <body>
 <form method='GET' action='http://localhost:8000/action1'>
 <h1>Petit Laboratoire num√©rique</h1>
@@ -10,8 +12,7 @@
 <p>Entrez la concentration molaire de votre solution m√®re : <input type='text' name='cm' />mol/L</p>
 <p>Entrez la concentration molaire de votre solution fille : <input type='text' name='cf' />mol/L</p>
 <p>Entrez le volume de la solution fille voulu : <input type='text' name='vf' />L</p>
-<p>Volume √† pr√©lever de la solution m√®re : L</p>
-<link rel="stylesheet" type="text/css" href="style.css">  
+<p>Pour avoir le volume de la solution mËre ‡ prÈlever, cliquez sur "envoyer"</p>
 <input type='submit' value='Envoyer'/>
 </form>
 <form method='GET' action='http://localhost:8000/action2'>
@@ -19,8 +20,8 @@
 <p>Entrez la concentration molaire de votre solution attendue : <input type='text' name='cmol' />mol/L</p>
 <p>Entrez la masse molaire de votre entit√© : <input type='text' name='mmol' />mol/L</p>
 <p>Entrez le volume de la solution voulu : <input type='text' name='vol' />L</p>
-<p>Masse √† pr√©lever de l'entit√© : L</p>
-<link rel="stylesheet" type="text/css" href="style.css">  
+<p>Pour avoir la masse de l'entitÈ ‡ prÈlever, cliquez sur "envoyer"</p>
 <input type='submit' value='Envoyer'/>
 </form>
 </body>
+</html>
