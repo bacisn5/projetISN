@@ -4,9 +4,18 @@ from bottle import request, route, run, template, get
 @route("/", method="GET")
 def affiche():
     return template("formulaire.html")
+from bottle import static_file
+
+@route('/css/<filename>')
+def server_static(filename):
+    return static_file(filename, root='./css')
+
+@route('/img/<filename>')
+def server_static(filename):
+    return static_file(filename, root='./css')
+
 
 @route("/action1", method="GET")
-
 def action1(): 
     concentration=float(request.query.get("cm"))
     concentration1=float(request.query.get("cf"))
