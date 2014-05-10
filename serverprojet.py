@@ -29,8 +29,6 @@ def action2():
     massemol=float(request.query.get("mmol"))
     volume=float(request.query.get("vol"))
     return "Masse a prelever vaut :"+str(concentrationmol*massemol*volume)
-#template("fonctiondilution.py ")
-# elif :
-#    return "Vous n'avez pas tout compléter"
+
 # mise en route du serveur
 run(host="localhost", port=8000, reloader=True)
