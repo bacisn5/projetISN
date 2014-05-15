@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from bottle import request, route, run, template, get
+from bottle import request, route, run, template, get, static_file
 
 @route("/", method="GET")
 def affiche():
@@ -12,7 +12,7 @@ def server_static(filename):
 
 @route('/img/<filename>')
 def server_static(filename):
-    return static_file(filename, root='./css')
+    return static_file(filename, root='./img')
 
 
 @route("/action1", method="GET")
