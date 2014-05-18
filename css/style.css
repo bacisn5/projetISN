@@ -1,30 +1,27 @@
 body{
-
-background-color:grey;
-width:200px;
+background-color:white;
+width:1400px
 
 }
+.centrer
+{
+		text-align:center;
+	}
 h1{
-color:rgb(9,1,275);
+color:red;
 text-align:center;
 }
 h2{
-   color:pink;
+   color:blue;
      text-decoration:underline;
 }
 h3{
-   color:pink;
+   color:blue;
      text-decoration:underline;
 }
+
 p{
    font-size:20px;
-    font-family:"Times New Roman";
-    width:500px; height:200px;
+   font-family:"Times New Roman";
+   width:800px; height:40px;
 }
-div.img{
-  margin:5px;
-  padding: 5px;
-  height:12 px;
-  width:12px;
-  float:left
-  }

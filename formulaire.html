@@ -3,7 +3,9 @@
 <head> 
 <meta charset="utf-8"/>
 <title>Petit Laboratoire numérique</title>
-<img src="img/image.jpg">
+<div class="centrer">
+<img class="centrer" src="img/image.jpg" border="0" height="300" width="930">
+</div>
 <link rel="stylesheet" type="text/css" href="css/style.css">  
 </head>
 <body>
@@ -13,7 +15,7 @@
 <p>Entrez la concentration molaire de votre solution mère : <input type='text' name='cm' />mol/L</p>
 <p>Entrez la concentration molaire de votre solution fille : <input type='text' name='cf' />mol/L</p>
 <p>Entrez le volume de la solution fille voulu : <input type='text' name='vf' />L</p>
-<p>Pour avoir le volume de la solution mère à prélever, cliquez sur "envoyer"</p>
+<p>Pour avoir le volume de la solution mère à prélever, cliquez sur "Envoyer"</p>
 <input type='submit' value='Envoyer'/>
 </form>
 <form method='GET' action='http://localhost:8000/action2'>
@@ -21,7 +23,7 @@
 <p>Entrez la concentration molaire de votre solution attendue : <input type='text' name='cmol' />mol/L</p>
 <p>Entrez la masse molaire de votre entité : <input type='text' name='mmol' />mol/L</p>
 <p>Entrez le volume de la solution voulu : <input type='text' name='vol' />L</p>
-<p>Pour avoir la masse de l'entité à prélever, cliquez sur "envoyer"</p>
+<p>Pour avoir la masse de l'entité à prélever, cliquez sur "Envoyer"</p>
 <input type='submit' value='Envoyer'/>
 </form>
 </body>
