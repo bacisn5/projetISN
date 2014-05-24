@@ -29,4 +29,4 @@ def action2():
     return template("sortiemasse.tpl",{'m': str(concentrationmol*massemol*volume)})
 
 # mise en route du serveur
-run(host="localhost", port=8000, reloader=True)
+run(host="0.0.0.0", port=8000, reloader=True)
