@@ -5,8 +5,6 @@ from bottle import request, route, run, template, get, static_file
 def affiche():
     return template("formulaire.html")
 
-from bottle import static_file
-
 @route('/css/<filename>')
 def server_static(filename):
     return static_file(filename, root='./css')
@@ -24,7 +22,6 @@ def action1():
     return template("sortiedilution.tpl",{'vm': str(concentration*volume/concentration1)})
 
 @ route("/action2",method="GET")
-
 def action2():
     concentrationmol=float(request.query.get("cmol"))
     massemol=float(request.query.get("mmol"))
