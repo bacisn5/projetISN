@@ -15,11 +15,14 @@ h2{
    color:blue;
      text-decoration:underline;
 }
+.right
+{
+	text-align:right;
+}
 h3{
    color:blue;
      text-decoration:underline;
 }
-
 p{
    font-size:20px;
    font-family:"Times New Roman";
