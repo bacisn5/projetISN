@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from bottle import request, route, run, template, get, static_file
 
-@route("/", method="GET")
+@route("/")
 def affiche():
     return template("formulaire.html")
 
