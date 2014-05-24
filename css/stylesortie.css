@@ -3,7 +3,11 @@
 	width:1400px
 }
 
-h2{
+h1{
    color:blue;
      text-decoration:underline;
+}
+.center
+{
+	text-align:center;
 }
