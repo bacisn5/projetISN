@@ -7,6 +7,6 @@
   <h1>Calculatrice de dissolution</h1>
   La masse à prélever vaut {{m}}g.
   <div class="center">
-<img class="center" src="img/pouce.jpg" height="50" width="50">
+<img class="center" src="img/pouce.jpg" height="150" width="150">
   </body>
 </html>
