@@ -21,7 +21,7 @@ def action1():
     volume=float(request.query.get("vf"))
     return template("sortiedilution.tpl",{'vm': str(concentration*volume/concentration1)})
 
-@ route("/action2",method="GET")
+@route("/action2",method="GET")
 def action2():
     concentrationmol=float(request.query.get("cmol"))
     massemol=float(request.query.get("mmol"))
